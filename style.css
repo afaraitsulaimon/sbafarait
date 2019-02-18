@@ -1,0 +1,212 @@
+body{
+
+	background: url(images/passion.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+   
+}
+
+
+
+.icon-bar{
+
+	background-color: white;
+}
+
+#logo a{
+
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+
+#menu li a{
+	margin-top: 20px;
+   font-size: 20px;
+   color: white;
+  display: block;
+  height: 50px;
+
+}
+
+
+#menu a:hover{
+   color: blue;
+  border-radius: 10px;
+  border:2px solid blue;
+
+
+
+}
+
+
+
+#upper-body{
+	text-align: center;
+	margin-top: 80px;
+	height: 500px;
+	padding-top: 150px;
+	background-color: rgba(108,163,252,0.3);
+	font-family: 'Gochi Hand', cursive;
+	color: blue;
+}
+
+#upper-body button{
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+	font-family: 'ZCOOL XiaoWei', serif;
+	border-radius: 5px;
+	border:2px solid blue;
+	font-weight: bold;
+	color: blue;
+	margin-top: 20px;
+
+}
+
+
+#upper-body button:hover{
+    background-color: blue;
+	border-radius: 5px;
+	border:2px solid white;
+	color: white;
+
+}
+
+#about-me{
+  
+   text-align: center;
+   color: white;
+   font-size: 30px;
+
+}
+
+#about-me h1{
+   
+   font-family: 'Gochi Hand', cursive;
+
+
+}
+
+#about-me p{
+   
+	font-family: 'ZCOOL XiaoWei', serif;
+
+
+}
+
+
+
+
+#contact-meForm{
+
+	  margin-top: 50px;
+	background-color: #86b3f9;
+	 height: 500px;
+}
+
+
+
+#contact-meForm #myForm textarea{
+
+	height: 150px;
+}
+
+#contact-meForm #myForm button[type='submit']{
+
+   width: 120px;
+	height: 40px;
+	font-weight: bold;
+	margin-left: 80px;
+
+}
+
+
+#contact-meForm #myForm button[type='submit']:hover{
+    cursor: pointer;
+		color: blue;
+	font-size: 15px;
+	background-color: white;
+	box-shadow: 4px 4px 5px blue;
+	-moz-box-shadow:4px 4px 5px blue;
+	-ms-box-shadow:4px 4px 5px blue;
+	-webkit-box-shadow:4px 4px 5px blue;
+	-o-box-shadow:4px 4px 5px blue;
+}
+
+
+#contact-meDetails{
+
+  margin-top: 50px;
+	background-color: #86b3f9;
+	 height: 500px;
+	text-align: center;
+	   font-family: 'Gochi Hand', cursive;
+	   padding-top: 10px;
+}
+
+#contact-meMap{
+  margin-top: 50px;
+
+}
+
+#tools-iuse{
+
+	background-color: white;
+	text-align: center;
+	font-family: 'Gochi Hand', cursive;
+}
+
+
+
+
+#tools-iuse img{
+
+	width: 200px;
+   height: 200px;
+   margin-top: 30px;
+}
+
+
+#theWords{
+
+	height: 320px;
+	margin-top: 50px;
+	background-color: #86b3f9;
+	text-align: center;
+}
+
+
+#theWords p{
+
+font-size: 25px;
+font-weight: bolder;
+padding-top: 30px;
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+
+#toTop {
+
+font-family: 'Gochi Hand', cursive; 
+font-size:30px; 
+color:blue;
+text-decoration: none;
+
+}
+
+
+#theWords h1{
+font-family: 'Gochi Hand', cursive;
+}
+
+#theCopy{
+
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 60px;
+}
+
