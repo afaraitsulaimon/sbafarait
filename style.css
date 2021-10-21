@@ -1,90 +1,178 @@
-.navbar-header {
-    background-color: white;
-    width: 100%;
-}
-
-.icon-bar {
-    background-color: white;
-}
-
-#logo a {
-    text-decoration: none;
-    color: black;
-    font-weight: bolder;
-    font-size: 50px;
-    padding-left: 50px;
-}
-
-#menu li a {
-    margin-top: 20px;
-    font-size: 20px;
-    color: black;
-    display: block;
-    height: 50px;
-}
-
-#menu a:hover {
-    color: blue;
-    border-radius: 10px;
-    border: 2px solid blue;
-}
-
-.upper-body {
-    text-align: center;
-    margin-top: 70px;
-    height: 500px;
-    padding-top: 150px;
-    font-family: 'Gochi Hand', cursive;
-    color: blue;
-}
-
-.about-me {
-    font-family: 'ZCOOL XiaoWei', serif;
-    font-size: 2.5em;
-    line-height: 5vh;
-    text-align: center;
-    height: 500px;
-    padding-top: 150px;
-    display: none;
-    margin-top: 70px;
-}
-
-.education {
-    font-family: 'ZCOOL XiaoWei', serif;
-    font-size: 2.5em;
-    line-height: 5vh;
-    text-align: center;
-    height: 500px;
-    padding-top: 150px;
-    color: white;
-    display: none;
-    margin-top: 70px;
-}
-
-.contact {
-    font-family: 'ZCOOL XiaoWei', serif;
-    font-size: 2.5em;
-    line-height: 5vh;
-    text-align: center;
-    height: 500px;
-    padding-top: 150px;
-    margin-top: -500px;
-    display: none;
-}
-
-.theWords {
-    font-family: 'ZCOOL XiaoWei', serif;
-    font-size: 2.5em;
-    line-height: 5vh;
-    text-align: center;
-    height: 500px;
-    padding-top: 150px;
-    display: none;
-}
-
-.footer {
-    color: black;
-    text-align: center;
-    font-size: 1.5em;
-    padding-top: 60px;
-}
+        body {
+            top: 0;
+            left: 0;
+            background-color: #0a192f;
+        }
+        
+        .navbar-header {
+            width: 100%;
+        }
+        
+        .navbar-toggler {
+            border-color: cornsilk;
+        }
+        
+        .navbar-toggler-icon {
+            background-color: cyan;
+        }
+        
+        .myLogo {
+            text-decoration: none;
+            font-weight: bolder;
+            font-size: 3.5em;
+            padding-left: 50px;
+            color: cornflowerblue;
+            font-family: 'Knewave', cursive;
+        }
+        
+        .myLogo:hover {
+            font-size: 4.5em;
+            color: greenyellow;
+        }
+        
+        .menu li a {
+            margin-top: 20px;
+            font-size: 1.5em;
+            display: block;
+            color: cornflowerblue;
+            height: 50px;
+            padding-right: 50px;
+            font-family: 'Rampart One', cursive;
+        }
+        
+        .menu li a:hover {
+            font-weight: bold;
+            color: hotpink;
+            text-decoration: none;
+        }
+        
+        .menu li a .btn {
+            font-size: 20px;
+            color: cornflowerblue;
+            margin-top: -20px;
+            display: block;
+            height: 50px;
+            background-color: transparent;
+            border: 2px solid #124bf7;
+            margin-left: 5px;
+            font-family: 'Rampart One', cursive;
+        }
+        
+        .menu li .btn:hover {
+            color: green;
+            background-color: rgb(219, 224, 224);
+            border: 2px solid green;
+            font-weight: bold;
+        }
+        
+        .upper-statement {
+            text-align: center;
+            padding-top: 70px;
+            font-family: 'Gochi Hand', cursive;
+            color: #8892b0;
+        }
+        
+        .about-me {
+            text-align: center;
+            padding-top: 100px;
+            font-family: 'Gochi Hand', cursive;
+            color: white;
+            font-size: 1.5em;
+        }
+        
+        .experience {
+            margin-top: 70px;
+        }
+        
+        .experience h1 {
+            text-align: center;
+            font-family: 'Gochi Hand', cursive;
+            color: white;
+        }
+        
+        .skills-tools-tech {
+            margin-top: 100px;
+        }
+        
+        .skills-tools-tech h1 {
+            font-family: 'Gochi Hand', cursive;
+            color: white;
+        }
+        
+        .skills-tools-tech ul li {
+            font-family: 'Noto Sans Mono', monospace;
+        }
+        
+        .tab-content .tab-pane h4 {
+            font-family: 'Noto Sans Mono', monospace;
+            font-weight: bolder;
+            color: cornflowerblue;
+        }
+        
+        .tab-content .tab-pane h5 {
+            font-family: 'Noto Sans Mono', monospace;
+            font-weight: bolder;
+        }
+        
+        .tab-content .tab-pane ul {
+            list-style: none;
+        }
+        
+        .tab-content .tab-pane ul li {
+            font-family: 'Noto Sans Mono', monospace;
+        }
+        
+        .tab-content .tab-pane ul li:before {
+            content: '▶';
+            position: absolute;
+            left: 0;
+        }
+        
+        #v-pills-tab a {
+            font-family: 'Noto Sans Mono', monospace;
+        }
+        
+        .portfolio {
+            margin-top: 100px;
+        }
+        
+        .portfolio h1 {
+            font-family: 'Gochi Hand', cursive;
+            color: white;
+        }
+        
+        .contact-me {
+            display: flex;
+            height: 30vh;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .contact-me .btn:hover {
+            background-color: green;
+            color: white;
+            border: 2px solid yellowgreen;
+            font-size: 1.5em;
+        }
+        
+        .bi-github {
+            font-size: 3rem;
+            color: cornflowerblue;
+        }
+        
+        .bi-twitter {
+            font-size: 3rem;
+            color: cornflowerblue;
+        }
+        
+        .bi-linkedin {
+            font-size: 3rem;
+            color: cornflowerblue;
+        }
+        
+        .footer {
+            color: black;
+            text-align: center;
+            font-size: 1.5em;
+            padding-top: 60px;
+        }
